@@ -51,21 +51,25 @@ Project Title: Fitness Call - BMR/BMI/Fat Calculator & Signup System
 
         Отвори проекта в Visual Studio Code
 
-        Провери appsettings.json:
+        Провери FitnessSignupApi/appsettings.json:
 
-"ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\\\mssqllocaldb;Database=FitnessCal;Trusted_Connection=True;MultipleActiveResultSets=true"
+EXAMPLE->  "ConnectionStrings": {
+           "DefaultConnection": "Server= "Име то на сървара" ;Database= "Име то на базата данни";Trusted_Connection=True;MultipleActiveResultSets=true" 
 }
+
+        Изтеглете Extension-а .NET Install Tool
+
 
 
 
 В терминала изпълни:
         cd FitnessSignupApi
+        dotnet tool install dotnet-ef
         dotnet restore
         dotnet ef database update
         dotnet run
 
-        API-то ще работи на: https://localhost:7227
+        API-то ще работи на: https://localhost:7227/swagger
 
 
 
@@ -79,8 +83,3 @@ Project Title: Fitness Call - BMR/BMI/Fat Calculator & Signup System
 
 
 
- Забележки при разпространение:
-
-    Ако ще го пращаш на други, увери се, че те имат .NET и SQL Server
-
-    Или предостави хостнато решение с база данни в облака
