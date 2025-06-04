@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=700" />
+    <title>Fitness site</title>
+    <link rel="stylesheet" href="./CalculatorStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src='path/to/big.js'></script> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="https://kit.fontawesome.com/0bc02cc86a.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+<script src='https://cdn.jsdelivr.net/npm/big.js@6.2.2/big.min.js'></script>
+</head>
+
+<body>
+    
+    <div class = "headerDiv">
+         
+  <header>
+    <div class = "socialIcons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <h1 style ="margin-left: 30px;">Fitness Call</h1>
+        </div>
+    
+   
+
+    <img style="width: 500px; height: 80px; " src="RealBarbel.png" alt="">
+    <div class = "headerAcount">
+        
+        <h3 class = h3><a href="SignInPage.html">Sign in</a></h3>
+        <h3 class = h3><a href="SignUpPage.html">Sign up</a></h3>
+        
+        <i class="fa-solid fa-right-from-bracket"></i>
+
+    </div>
+
+</div>
+</header>  
+<nav>
+
+   <b> 
+    <a href="HomePage.html"><p>Home</p></a>
+   </b>
+   <b>
+    <p>Bio</p>
+</b>
+<b>
+    <p>Exercise Program</p>
+</b>
+
+</nav>
+
+
+    <div class ="section">
+        
+            
+        <div class = "TextSection">
+        <h1>Calculator</h1>
+        
+        </div>
+        
+        
+           
+        <div class =CalculatorSection>
+            <div class = CalculatorAnswer>
+                <div class="slider-container">
+                    <div class="slides" id="slides"></div>
+                </div>
+
+            <script src="CalculatorAnswer.js"></script>
+                
+            </div>
+            <div class="CalculatorInfo">
+                
+                <div class="Age">
+                    <p>Age <input type="text" id="age" style="margin-left: 0.6em; margin-right: 0.6em;"> (ages 15-80)</p>
+                </div>
+                <div class="Gender">
+                    <p>Gender 
+                        <button id="maleButton" style="margin-left: 0.6em; margin-right: 0.6em;">M</button> /
+                        <button id="femaleButton" style="margin-left: 0.6em; margin-right: 0.6em;">F</button>
+                    </p>
+                </div>
+                <div class="Height">
+                    <p>Height <input type="text" id="height" style="margin-left: 0.6em; margin-right: 0.6em;"> cm</p>
+                </div>
+                <div class="Weight">
+                    <p>Weight <input type="text" id="weight" style="margin-left: 0.8em; margin-right: 0.6em;"> kg</p>
+                </div>
+                
+                <div class ="ExerciseList">
+                    <span style="font-size: 2em;">Activity</span>
+                    <select name="exerciseList" id="activity">
+                       <option value="1.2">Sedentary(little or no exersice)</option>
+                       <option value="1.375">Lightly active (light exercise/sports 1-3 days/week)</option>
+                       <option value="1.55">Moderately active (moderate exercise/sports 3-5 days/week)</option>
+                       <option value="1.725">Very active (hard exercise/sports 6-7 days a week)</option>
+                       <option value="1.9">Extra active (very hard exercise and a physical job)</option>
+                    </select>
+                </div>
+                <div class="calculatorButton">
+                    <button id="calButton" onclick="calculator()">Calculate</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img id="weightIMG" src="weight.png" alt="">
+
+    <footer>
+        <p>Fitness Call</p>
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2025 "Fitness Call" <b>All rights reserved</b></p>
+    </footer>
+
+    <script src="CalculatorInfo.js"> </script>
+
+   
+</body>
+</html>

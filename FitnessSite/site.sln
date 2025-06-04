@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessSignupApi", "FitnessSignupApi\FitnessSignupApi.csproj", "{3DA08A01-69BD-5D99-A6C1-ACAB025A63C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DA08A01-69BD-5D99-A6C1-ACAB025A63C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA08A01-69BD-5D99-A6C1-ACAB025A63C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA08A01-69BD-5D99-A6C1-ACAB025A63C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA08A01-69BD-5D99-A6C1-ACAB025A63C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4DFF052-9758-4971-A202-B5C7D31A1C9A}
+	EndGlobalSection
+EndGlobal
